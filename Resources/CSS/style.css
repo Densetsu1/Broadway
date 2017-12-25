@@ -9,15 +9,21 @@ h3{
   font-weight: bold;
 }
 
-h1{
+.header h1{
   font-size: 70px;
 }
 
-h2{
+.header h2{
+  font-size: 23px;
+}
+
+.process h2,
+.about h2{
   font-size: 32px;
 }
 
-h3{
+.process h3,
+.about h3{
   font-size: 23px;
 }
 
@@ -25,8 +31,9 @@ p{
   font-size: 14px;
 }
 
-.nav p{
+a{
   font-size: 18px;
+  color: white;
 }
 
 .header{
@@ -34,6 +41,7 @@ p{
   background-image: url("../Images/the-flatiron-building.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer{
