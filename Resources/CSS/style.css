@@ -28,3 +28,17 @@ p{
 .nav p{
   font-size: 18px;
 }
+
+.header{
+  color: white;
+  background-image: url("../Images/the-flatiron-building.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer{
+  background-color: dimgray;
+  font-size: 11px;
+  text-align: left;
+  color: white;
+}
